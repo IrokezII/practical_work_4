@@ -29,7 +29,7 @@ def process_string(text: str, mode: str = "upper") -> str:
 
 # НОВАЯ ФУНКЦИЯ: подсчёт гласных букв
 def count_vowels(text: str) -> int:
-    vowels = "aeiouyAEIOUY"
+    vowels = "aeiouAEIOU"
     return sum(1 for ch in text if ch in vowels)
 
 # НОВАЯ ФУНКЦИЯ: проверка, является ли строка палиндромом (без учёта регистра и пробелов)
